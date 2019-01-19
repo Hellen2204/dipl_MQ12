@@ -2,13 +2,19 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>COLLEGE SPORT</title>
-    <link rel="stylesheet" href="style-1.css">
+    <link rel="stylesheet" href="css/style-1.css">
 
 </head>
 
 <body>
+    <picture  class="pp">
+            <source srcset="images/surface_320-l.jpg" media="(max-width: 640px)">
+            <source srcset="images/surface_768-l.jpg" media="(min-width: 641px) and (max-width: 960px)">
+            <source srcset="images/surface_desktop-l.jpg" media="(min-width: 961px)">
+            <img src="images/surface_320-l.jpg" alt="basa">
+        </picture>
 
     <header class="header_container">
 
@@ -26,8 +32,8 @@
 
 
             <h1 class="slogan">
-                <div>be recruited</div>
-                <div>play college sports</div>
+                <span>be recruited</span>
+                <span>play college sports</span>
             </h1>
 
             <div class="button_container">
@@ -61,10 +67,12 @@
 
     <section class="athlets">
 
+
+
         <picture class="pict_athlets">
             <source srcset="images/footballer_192.png" media="(max-width: 640px)">
             <source srcset="images/footballer_497.png" media="(min-width: 641px) and (max-width: 960px)">
-            <source srcset="images/footballer_566.png" media="(min-width: 961px) and (max-width: 1920px)">
+            <source srcset="images/footballer_566.png" media="(min-width: 961px)">
             <img src="images/footballer_192.png" alt="footballer">
         </picture>
 
@@ -111,10 +119,11 @@
     <section class="players">
 
 
+
         <picture class="pict_players">
             <source srcset="images/basketballer_302.png" media="(max-width: 640px)">
             <source srcset="images/basketballer_436.png" media="(min-width: 641px) and (max-width: 960px)">
-            <source srcset="images/basketballer_991.png" media="(min-width: 961px) and (max-width: 1920px)">
+            <source srcset="images/basketballer_991.png" media="(min-width: 961px)">
             <img src="images/basketballer_302.png" alt="basketballer">
         </picture>
 
@@ -160,11 +169,11 @@
 
     <section>
 
-        <article class="why_download_container">
+        <section class="why_download_container">
             <picture class="be_active">
                 <source srcset="images/be-active_640.jpg" media="(max-width: 640px)">
                 <source srcset="images/be-active_960.jpg" media="(min-width: 641px) and (max-width: 960px)">
-                <source srcset="images/be-active_1024.jpg" media="(min-width: 961px) and (max-width: 1920px)">
+                <source srcset="images/be-active_1024.jpg" media="(min-width: 961px)">
                 <img src="images/be-active_640.jpg" alt="be_active">
             </picture>
 
@@ -178,13 +187,13 @@
                 <h3>be active</h3>
                 <p>Post videos with your skills, Like and follow others to be more popular.</p>
             </div>
-        </article>
+        </section>
 
-        <article class="why_download_container">
+        <section class="why_download_container">
             <picture class="find_contact">
                 <source srcset="images/find-contact_640.jpg" media="(max-width: 640px)">
                 <source srcset="images/find-contact_960.jpg" media="(min-width: 641px) and (max-width: 960px)">
-                <source srcset="images/find-contact_1024.jpg" media="(min-width: 961px) and (max-width: 1920px)">
+                <source srcset="images/find-contact_1024.jpg" media="(min-width: 961px)">
                 <img src="images/find-contact_640.jpg" alt="find_contact">
             </picture>
 
@@ -197,13 +206,13 @@
                 <h3>find contact</h3>
                 <p>Contact others to find right coach or athlete you are looking for.</p>
             </div>
-        </article>
+        </section>
 
-        <article class="why_download_container">
+        <section class="why_download_container">
             <picture class="work_it">
                 <source srcset="images/work-it_640.jpg" media="(max-width: 640px)">
                 <source srcset="images/work-it_960.jpg" media="(min-width: 641px) and (max-width: 960px)">
-                <source srcset="images/work-it_1024.jpg" media="(min-width: 961px) and (max-width: 1920px)">
+                <source srcset="images/work-it_1024.jpg" media="(min-width: 961px)">
                 <img src="images/work-it_640.jpg" alt="work_it">
             </picture>
             <div class="why_d_numero_position">
@@ -215,7 +224,7 @@
                 <h3>work it</h3>
                 <p>Enjoy being a student athlete, the recruiting process can be overwhelming, we want to make this enjoyable experience.</p>
             </div>
-        </article>
+        </section>
 
 
 
@@ -234,10 +243,10 @@
                     </g>
                     </svg>
                 </div>
-                <h2 class="footer_slogan">
-                    <div>download app</div>
-                    <div>Show everyone what you can do!</div>
-                </h2>
+                <div class="footer_slogan">
+                    <h2>download app</h2>
+                    <p>Show everyone what you can do!</p>
+                </div>
             </div>
 
             <div class="button_container">
