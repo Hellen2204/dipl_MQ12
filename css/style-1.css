@@ -20,22 +20,10 @@ body {
     position: relative;
 }
 
-.pp {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-    z-index: 10;
-}
-
-.pp img {
-    display: block;
-}
-
 h1, h2, h3 {
     margin: 0;
     text-transform: uppercase; 
- }
+}
 
 h2 {
     color: #e7e7e7;
@@ -1022,7 +1010,7 @@ h3 {
         width: 706px;
         margin: 0;
         text-align: left;
-        letter-spacing: 0.04em
+        letter-spacing: 0.04em;
         font-size: 80px;
     }
 
